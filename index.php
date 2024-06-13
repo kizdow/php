@@ -1,11 +1,12 @@
 <?php
-    // comandos
+    // Comandos
 
+    // IF
     if (true) {
         echo "Hello World!";
     }
 
-    //criação de variaveis
+    // Criação de variaveis
     $nome = "Ronaldo";
     $nomereal = "Felipe";
     $altura = 1.55;
@@ -17,7 +18,7 @@
     var_dump ($verdadeiro);
     var_dump ($sobrenome);
 
-    //array
+    // Array
     $notas = [1,2,3,63,7,32,8];
     var_dump ($notas);
     echo "<br>";
@@ -35,7 +36,7 @@
     $objeto = new stdClass ();
     $objeto->nome = "Jair";
 
-    // pular linhas
+    // Pular linhas
     PHP_EOL;
     echo "<br>";
     echo "<hr>";
